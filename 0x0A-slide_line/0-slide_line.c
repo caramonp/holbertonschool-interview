@@ -47,8 +47,8 @@ void slide_left(int *line, size_t size)
 			previus = 0;
 		} else
 		{
-			line[i++] = prev;
-			prev = current;
+			line[i++] = previus;
+			previus = current;
 		}
 	}
 	if (previus)
